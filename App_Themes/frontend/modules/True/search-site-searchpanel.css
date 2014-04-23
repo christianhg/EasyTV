@@ -1,0 +1,127 @@
+﻿.avanced-search--wrapper {
+    background-color: none !important;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    left: 0px;
+    top: -40px;
+}
+
+.avanced-search--wrapper .slider--wrapper,
+.avanced-search--wrapper .checkbox--wrapper,
+.avanced-search--wrapper .ms--wrapper {
+    border-top: 1px dotted #7f8c8d;
+    position: relative;
+}
+
+.avanced-search--wrapper .ms--wrapper {
+    top: -30px;
+}
+
+.avanced-search--wrapper .checkbox--wrapper {
+    padding-top: 28px;
+}
+
+.avanced-search--wrapper .slider--wrapper {
+    margin-bottom: 20px;
+}
+
+.avanced-search--wrapper .well {
+    background-color: none;
+    border: none;
+}
+
+.avanced-search--wrapper .ui-widget-content {
+    background: none;
+    background-color: #ebeff1;
+}
+
+.avanced-search--wrapper .ui-slider-handle {
+    cursor: pointer;
+    background-image: none;
+    border-radius: 30px;
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+}
+
+.avanced-search--wrapper input[type=checkbox] {
+    visibility: hidden;
+}
+
+.avanced-search--wrapper .checkbox-header {
+    position: relative;
+    top: -44px;
+    left: 34px;
+}
+
+.avanced-search--wrapper .checkboxFour {
+    left: -38%;
+    width: 26px;
+    height: 26px;
+    background: #ebeff1;
+    margin: 20px 90px;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px #bdc3c7;
+    -moz-box-shadow: 0px 1px 3px #bdc3c7;
+    box-shadow: 0px 1px 3px #bdc3c7;
+    margin-top: -6px;
+}
+
+.avanced-search--wrapper .checkboxFour label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.avanced-search--wrapper .highlightCheckbox {
+    background: url(../../../../assets/img/checked.png);
+    background-size: 21px;
+    background-repeat: no-repeat;
+    z-index: 99 !important;
+}
+
+.avanced-search--wrapper .ms-container {
+    position: relative;
+}
+
+.avanced-search--wrapper .ms-container .ms-selectable {
+    float: left;
+    border: 1px solid #bdc3c7;
+    background-color: #ebeff1;
+    box-shadow: inset 2px 4px #bdc3c7;
+    width: 66%;
+}
+
+.avanced-search--wrapper .ms-container .ms-focus {
+    border: 1px solid #bdc3c7;
+    outline: 0px none;
+    box-shadow: 2px 1px 4px #95a5a6, inset 2px 4px #bdc3c7;
+}
+
+.avanced-search--wrapper .ms-container .ms-selection {
+    float: left;
+    clear: both;
+    background-color: transparent;
+    width: 66%;
+}
+
+.avanced-search--wrapper .ms-container .ms-selection .ms-list {
+    margin-top: 20px;
+    border: 1px solid #bdc3c7;
+    background-color: #ebeff1 !important;
+    box-shadow: inset 2px 4px #bdc3c7;
+}
+
+/*# sourceMappingURL=C:/Users/Doc/Documents/GitHub/EasyTV-prototype/App_Themes/frontend/modules/search-site-searchpanel.less.map */

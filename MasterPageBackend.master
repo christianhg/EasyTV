@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageBackend.master.cs" Inherits="MasterPageBackend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>easyTV - Administrator</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    <asp:ContentPlaceHolder id="cphBackendHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="assets/multiselect/jquery.multi-select.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- STYLE -->
+    <link rel="stylesheet" type="text/css" href="assets/multiselect/multi-select.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="row">
+                <!-- NAVBAR HEADER -->
+                <nav class="col-md-12 col-lg-12">
+                    <!-- LOGO -->
+                    <div class="col-md-5 col-lg-5">
+                        <a href="backend.aspx">
+                            <img src="assets/img/logo.png" alt="easyTV logo" />
+                        </a>
+                    </div>
+                    <!-- LOGOUT -->
+                    <div>
+                        <asp:LinkButton ID="btnLogOut" class="logout pull-right" runat="server" OnClick="Logout_Click"><h4>Logout</h4></asp:LinkButton>
+                    </div>
+                </nav>
+            </div>
+            <!-- CONTENT -->
+            <div class="row backend--wrapper">
+                <asp:ContentPlaceHolder id="cphBackend" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

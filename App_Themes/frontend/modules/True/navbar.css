@@ -1,0 +1,12 @@
+﻿nav {
+    margin-top: 10px;
+}
+
+nav .icons-header a:link {
+    text-decoration: none;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+/*# sourceMappingURL=C:/Users/Doc/Documents/GitHub/EasyTV-prototype/App_Themes/frontend/modules/navbar.less.map */

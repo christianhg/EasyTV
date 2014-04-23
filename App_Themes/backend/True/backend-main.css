@@ -1,0 +1,198 @@
+﻿@import url(../../../assets/bootstrap/css/bootstrap.css);
+/* LIB */
+/* BASE */
+body {
+    background-color: #f9f9f9;
+}
+
+body .well {
+    margin-top: 10px;
+}
+
+body .btn-warning {
+    /* #f1c40f Sun flower     
+                #f39c12 Orange */
+    border-radius: 0;
+    border: 1px solid #f39c12;
+    background-color: #f1c40f;
+    -moz-box-shadow: 2px 3px 0 #f39c12;
+    -webkit-box-shadow: 2px 3px 0 #f39c12;
+    box-shadow: 2px 3px 0 #f39c12;
+}
+
+body .btn-warning:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-color: #f39c12;
+    -moz-box-shadow: 1px 2px 0 #f39c12;
+    -webkit-box-shadow: 1px 2px 0 #f39c12;
+    box-shadow: 1px 2px 0 #f39c12;
+}
+
+body .btn-primary {
+    /* #3498db Peter River     
+                #2980b9 Belize Hole */
+    border-radius: 0;
+    border: 1px solid #2980b9;
+    background-color: #3498db;
+    -moz-box-shadow: 2px 3px 0 #2980b9;
+    -webkit-box-shadow: 2px 3px 0 #2980b9;
+    box-shadow: 2px 3px 0 #2980b9;
+}
+
+body .btn-primary:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-color: #2980b9;
+    -moz-box-shadow: 1px 2px 0 #2980b9;
+    -webkit-box-shadow: 1px 2px 0 #2980b9;
+    box-shadow: 1px 2px 0 #2980b9;
+}
+
+body .btn-danger {
+    /* #e74c3c Alizarin     
+                #c0392b Pomegranate  */
+    border-radius: 0;
+    border: 1px solid #c0392b;
+    background-color: #e74c3c;
+    -moz-box-shadow: 2px 3px 0 #c0392b;
+    -webkit-box-shadow: 2px 3px 0 #c0392b;
+    box-shadow: 2px 3px 0 #c0392b;
+}
+
+body .btn-danger:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-color: #c0392b;
+    -moz-box-shadow: 1px 2px 0 #c0392b;
+    -webkit-box-shadow: 1px 2px 0 #c0392b;
+    box-shadow: 1px 2px 0 #c0392b;
+}
+
+body .btn-success {
+    /* #2ecc71 Emerald      
+                #27ae60 Nephritis  */
+    padding: 8px;
+    border-radius: 0;
+    border: 1px solid #27ae60;
+    background-color: #2ecc71;
+    -moz-box-shadow: 2px 3px 0 #27ae60;
+    -webkit-box-shadow: 2px 3px 0 #27ae60;
+    box-shadow: 2px 3px 0 #27ae60;
+}
+
+body .btn-success:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-color: #27ae60;
+    -moz-box-shadow: 1px 2px 0 #27ae60;
+    -webkit-box-shadow: 1px 2px 0 #27ae60;
+    box-shadow: 1px 2px 0 #27ae60;
+}
+
+body .btn-default {
+    /* #95a5a6 Concrete      
+                #7f8c8d Asbestos   */
+    border-radius: 0;
+    border: 1px solid #7f8c8d;
+    background-color: #95a5a6;
+    -moz-box-shadow: 2px 3px 0 #7f8c8d;
+    -webkit-box-shadow: 2px 3px 0 #7f8c8d;
+    box-shadow: 2px 3px 0 #7f8c8d;
+}
+
+body .btn-default:hover {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-color: #7f8c8d;
+    -moz-box-shadow: 1px 2px 0 #7f8c8d;
+    -webkit-box-shadow: 1px 2px 0 #7f8c8d;
+    box-shadow: 1px 2px 0 #7f8c8d;
+}
+
+body .form-control {
+    border: 1px solid #bdc3c7;
+    background-color: #ebeff1;
+    box-shadow: inset 2px 4px #bdc3c7 !important;
+    border-radius: 0px;
+}
+
+body .form-control:focus {
+    border: 1px solid #bdc3c7;
+    outline: 0px none;
+    box-shadow: 2px 1px 4px #95a5a6, inset 2px 4px #bdc3c7 !important;
+}
+
+body .form-control:hover {
+    border: 1px solid #bdc3c7;
+    outline: 0px none;
+    box-shadow: 2px 1px 4px #95a5a6, inset 2px 4px #bdc3c7 !important;
+}
+
+body .ms-container .ms-selectable {
+    border: 1px solid #bdc3c7;
+    background-color: #ebeff1;
+    box-shadow: inset 2px 4px #bdc3c7;
+}
+
+body .ms-container .ms-focus {
+    border: 1px solid #bdc3c7;
+    outline: 0px none;
+    box-shadow: 2px 1px 4px #95a5a6, inset 2px 4px #bdc3c7;
+}
+
+body .ms-container .ms-selection {
+    background-color: transparent;
+}
+
+body .ms-container .ms-selection .ms-list {
+    border: 1px solid #bdc3c7;
+    background-color: #ebeff1 !important;
+    box-shadow: inset 2px 4px #bdc3c7;
+}
+
+/* SETTINGS */
+/* Flat-ui */
+/* MODULES */
+nav {
+    margin-top: 10px!important;
+}
+
+nav .icons-header a:link {
+    text-decoration: none;
+}
+
+.input--search {
+    font-size: 40px;
+}
+
+.input-global {
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.backend--wrapper {
+    margin-top: 30px;
+}
+
+.backend--wrapper .tab-content {
+    margin-top: 20px;
+}
+
+.backend--wrapper .nav-tabs align-content:link {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.btnDeleteExclusion:hover {
+    cursor: pointer;
+}
+
+.from-group--zipButtons {
+    margin-top: 4%;
+}
+
+/*# sourceMappingURL=C:/Users/Doc/Documents/GitHub/EasyTV-prototype/App_Themes/backend/backend-main.less.map */
